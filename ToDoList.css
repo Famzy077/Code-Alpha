@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+}
+body{
+    margin: 30px;
+}
+.cover{
+    margin: 30px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 77vh;
+}
+.contain{
+    background-color: whitesmoke;
+    box-shadow: 0 0 6px 0 black;
+    height: auto;
+    display: grid;
+    width: auto;
+    padding: 30px;
+}
+.contain:hover{
+    box-shadow: 0 0 7px 0 rgb(38, 102, 221);
+}
+.main{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#To_Do_List{
+    width: 280px;
+    height: 30px;
+    padding: 7px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+#To_Do_List:focus{
+    box-shadow: 0 0 6px 0 rgb(38, 102, 221);
+    outline-style: none;
+}
+button{
+    padding: 7px 10px;
+    border-radius: 5px;
+    /* height: 45px; */
+    border: none;
+    color: white;
+    font-size: 1.4em;
+    background-color: rgb(38, 102, 221);
+    cursor: pointer;
+}
+#errors{
+    color: red;
+    font-size: 1.2em;
+    padding-left:20px;
+    margin-left: 30px ;
+}
+ul{
+    padding: 15px 0;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+ul li{
+    font-size: 1.3em;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding: 6px;
+    list-style-type: none;
+    border: 1px solid rgb(62, 149, 230);
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+    width: auto;
+    padding-left: 10px;
+}
+
+span{
+    border-radius: 5px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+li input{
+    
+    border-radius: 15px;
+    height: 23px;
+    width: 30px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="/AgeCalculator.css">
+</head>
+<body>
+    <div class="container">
+        <div class="span">
+                <h1>Age Calculator</h1>
+                <label for="birthYear">Enter your birth year:</label>
+            <div class="main">
+                <input type="datetime-local" id="dob" name="inputYear">
+                <button id="calculate">Calculate Age</button>
+            </div>
+
+            <p id="errors"></p>
+            <div class="contain">
+                <div class="days">
+                    <h2>Days</h2>
+                    <p id="days">-</p>
+                </div>
+            
+                <div class="months">
+                    <h2>Months</h2>
+                    <p id="months">-</p>
+                </div>
+            
+                <div class="year">
+                    <h2>Years</h2>
+                    <p id="year">-</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/AgeCalculator.js"></script>
+</body>
+</html>
