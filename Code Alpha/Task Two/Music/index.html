@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Websites</title>
+    <link rel="stylesheet" href="/fonts/css/all.css">
+    <link rel="stylesheet" href="music.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="musicBox">
+                <div class="music-Box">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+            
+                <div class="music-Box">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <section>
+                <img src="Joeboy-Body-and-Soul-AlbumArtwork1.jpg" alt="song-image">
+                <h1>Halle</h1>
+                <p>Joeboy</p> 
+                <audio id="song">
+                    <source src="Joeboy-Halle-(TrendyBeatz.com).mp3" type="audio/mpeg">
+                </audio>
+                <input type="range" value="" id="progress">
+            </section>
+            <div class="controls">
+                <div><i class="fa-solid fa-backward"></i></div>
+                <div><i onclick="playPause()" class="fa-solid fa-play" id="controlIcon"></i></div>
+                <div><i class="fa-solid fa-forward"></i></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./music.js"></script>
+</body>
+</html>
